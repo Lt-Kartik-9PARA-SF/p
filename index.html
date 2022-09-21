@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel = "icon" href = "predator-removebg-preview.png" type = "image/x-icon">
+            
+    <title>Predator Fitness</title>
+</head>
+<body>
+    <audio src="predator.mp3" id="theme"></audio>
+    <header>
+       
+        <nav class="flex-container">
+            <div id="logoContainer"><img src="predator3.jpeg" id="logo" alt="logo"></div>
+            <a href="index.html">Home</a>
+            <a href="services2.html">Services</a>
+            <a href="team.html">Team</a>
+            <a href="about.html">About us</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+    </header>
+  <div id="banner">banner</div>
+    <main >
+        
+        <div class="homeDiv" id="homeDiv1" ><button><a href="services2.html">Services </a></button></div>
+        <div class="homeDiv" id="homeDiv2"><button><a href="team.html">Team</a></button></div>
+    </main>
+    <section>Call today for Home PT or Online Training</section>
+    <footer>
+<p> all rights reserved &copy;</p>
+    </footer>
+    <script>
+        window.onload = function play(){
+            document.getElementById('theme').play();
+        }
+    </script>
+</body>
+</html>
