@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&display=swap');
+
 *{
   margin:0;
   box-sizing: border-box;
@@ -68,10 +70,7 @@ main{
   background-color: black;
   color: aliceblue;
  }
-#logo{
- width: 18%;
- height: auto;
-}
+
 button a{
   text-decoration: none;
 text-transform: uppercase;
@@ -231,6 +230,32 @@ section{
   height: 100%;
   margin-top: 9em;
 }
+#logo{
+  width: 18%;
+  height: auto;
+ }
+ #logoContainer{
+ 
+  height:19vh;
+  width: 40vw;
+  display: flex;
+  align-items: center;
+ }
+#logotext{
+  font-family: 'Black Ops One', cursive;
+  color: greenyellow;
+  display: inline-block;
+  font-size: 3rem;
+  height: fit-content;
+  
+  align-self: flex-start;
+}
+#logoSmallText{
+  font-family: 'Black Ops One', cursive;
+
+  font-size: 3rem;
+  
+}
 @media screen and (max-width: 645px) {
  
   .flex-container{
@@ -316,5 +341,16 @@ section{
     padding: 1em;
     border-radius: 11px;
   }
+  #logoContainer{
+ 
+    height:19vh;
+    width: 40vw;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 15px;
+   }
+   #logo{
+    width: 20vh;
+   }
  
 }
