@@ -350,7 +350,7 @@ section{
     margin-bottom: 15px;
    }
    #logo{
-    width: 20vh;
+    display: none;
    }
  
 }
