@@ -245,16 +245,19 @@ section{
     background-color: black;
     align-items: center;
     height:fit-content;
-  
-  
   }
   .homeDiv{
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 95vw;
-    height: 80vh;
-    margin-top:1em;
+    width: 100vw;
+    margin-top:5px;
+    padding: 0;
+    border: 2px dotted red;
+  }
+  #homeDiv1 , #homeDiv2 {
+    background-size: cover;
+    margin-top:16px;
   }
 
   main{
