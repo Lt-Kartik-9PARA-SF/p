@@ -253,7 +253,7 @@ section{
     width: 100vw;
     margin-top:5px;
     padding: 0;
-    border: 2px dotted red;
+   
   }
   #homeDiv1 , #homeDiv2 {
     background-size: cover;
